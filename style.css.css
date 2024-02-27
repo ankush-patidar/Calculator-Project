@@ -1,0 +1,80 @@
+body{
+    background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+
+
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 9px 4px rgb(130, 138, 161);
+    font-size: 40px;
+    color: whitesmoke;
+}
+h1:hover{
+    text-decoration: solid;
+    color: rgb(151, 13, 13);
+}
+.container{
+    width: max-content;
+    height: max-content;
+    margin-top: 80px;
+    margin-left: 450px;
+    border: 8px rgb(0, 0, 0) solid;
+    /* background-color: rgba(145, 116, 209, 0.478); */
+    background-color: #000000;
+    box-shadow: 10px 0px 20px rgb(194, 191, 191);
+}
+
+#screen{
+    margin: 10px;
+    margin-left: 15px;
+    width: 350px;
+    height: 90px;
+    padding: 10px;
+    border: 2px black solid;
+    text-align: right;
+    background-color: rgb(138, 138, 138);
+    font-size: 50px;
+    font-weight: bold;
+    cursor:text;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    margin: 5px;
+    width: 50px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: large;
+    margin-left: 30px;
+    border-radius: 40px;
+    border: 2px black solid;
+    /* border: none; */
+    background-color: rgb(178, 197, 234);
+    box-shadow: 4px 2px 3px 3px  rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+ button:hover{
+  
+  border-style: groove;
+  background-color: rgb(65, 78, 78);
+ }
+
+
+#result{
+   width:300px;
+   font-size: 30px;
+   
+}
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px ;
+    font-size: 20px;
+  }
+  #clear{
+    background-color: chocolate;
+  }
+  #clear:hover{
+    background-color: rgb(65, 78, 78);
+  }
